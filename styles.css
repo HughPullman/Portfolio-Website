@@ -1,0 +1,214 @@
+head,
+body{
+    font-family:'Kanit', sans-serif;
+    color:seashell;
+    background-color: #1A1A1D;
+    opacity: 0.9;
+}
+header{
+    position:fixed;
+    top: 0;
+    z-index: 2;
+    height: 90px;
+    border-bottom: 5px solid seashell;
+    width: 100%;
+    color:seashell;
+    background-color: #1A1A1D;
+    
+}
+header h1{
+    float: left;
+    padding: 20px;
+}
+main{
+    margin-top: 100px;
+}
+header ul{
+    margin: auto;
+    display: inline-block;
+}
+header h1{
+    text-align: center;
+    font-size: 2.8em;
+    margin-top:-5px;
+    font-weight: bold;
+}
+
+header li{
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 16px 35px;
+    color:seashell;
+    
+}
+header a{
+    color:seashell;
+    text-decoration: none;
+}
+
+nav{
+    float: right;
+    text-align: center;
+    color:seashell;
+    opacity: 0.9;
+    padding: 20px ;
+    font-size: 1.5em;
+}
+
+.anchor {
+    position: relative;
+    left: 0px;
+    top: -80px;
+}
+.flexbox-left{
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 60%;
+    margin:auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.flexbox-right{
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 35%;
+    margin:auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.section{
+    margin: 50px auto 50px auto;
+    width: 90%;
+    text-align: center;
+}
+#photoOfMe{
+    width: 300px;
+    height: auto;
+    border-radius: 50px;
+    padding: 10px;
+}
+.flexbox-center{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 100px;
+    justify-content: left;
+    align-content: center;
+    align-items: stretch;
+    padding-left: 15px;
+}
+
+.flexbox-project{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 380px;
+    height: 150px;
+    justify-content: space-around;
+    align-items: center;
+    border: solid;
+    border-radius: 15px;
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-right: 30px;
+    
+}
+.flexbox-project a{
+    text-decoration: none;
+    color: seashell;
+    font-weight: bold;
+    margin: 5px;
+}
+.logo{
+    width: 100px;
+}
+.flexbox-skills{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: auto;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+.flexbox-skills h3{
+    padding: 10px;
+    font-size: 1em;
+}
+.badge {
+	margin: 1.5em 3em;
+	width: 6.4em;
+	height: 6.4em;
+	border-radius: 20%;
+	display: flex;
+	top: 0;
+	transition: all 0.2s ease;
+  box-shadow: 8px 10px 12px 3px rgba(0, 0, 0, 0.43);
+  
+}
+
+.rounded {
+  width: 70px;
+    height: 70px;
+  background: white;
+  position: absolute;
+  margin: 15px 16px auto;
+  z-index: 10;
+    border-radius: 30%;
+  box-shadow: 8px 8px 8px 2px rgba(0, 0, 0, 0.23);
+  
+  
+ 
+}
+i.fab {
+    font-size: 3.2em;
+    font-family: 'Font Awesome 5 Brands';
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+    margin-top: 7px;
+    
+  }
+.orange {
+    background: darkorange;
+    color: orange;
+  }
+  .blue {
+    background: dodgerblue;
+    color: deepskyblue;
+}
+.gold {
+    background: gold;
+    color: gold;
+  }
+  .green {
+    background: yellowgreen;
+    color: darkslategray;
+  }
+  @font-face {
+    font-family: "Font Awesome 5 Brands";
+    font-style: normal;
+    font-weight: normal;
+    font-display: auto;
+    src: url(../webfonts/fa-brands-400.woff2) format("woff2");
+}
+.fa-html5:before {
+    content: "\f13b"
+}
+.fa-css3-alt:before {
+    content: "\f38b";
+}
+.fa-js-square:before {
+    content: "\f3b9";
+}
+.fa-node:before {
+    content: "\f419";
+}
